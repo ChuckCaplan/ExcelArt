@@ -43,7 +43,7 @@ mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--he
 ```
  Usage: java com.chuckcaplan.excelart.Main [options]
   Options:
-  \* -i
+  * -i
       The filesystem path or URL of the input image.
     -o
       The filename of the resulting .xlsx spreadsheet.

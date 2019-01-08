@@ -1,4 +1,4 @@
-# Excel Art
+# ExcelArt
 
 This project takes an image as input and outputs an [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel "Excel") spreadsheet, with each cell&apos;s background color being the RGB values from the image. In other words, it converts your images into Excel Art.
 
@@ -29,7 +29,7 @@ cd ExcelArt
 mvn package
 ```
 
-## Run Excel Art
+## Run ExcelArt
 Running with Maven is easy, though you can also run with the java command directly.
 
 ``
@@ -40,7 +40,7 @@ mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="-i s
 ``
 mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--help"
 ``
-
+```
  Usage: java com.chuckcaplan.excelart.Main [options]
   Options:
   \* -i
@@ -50,7 +50,7 @@ mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--he
       Default: output.xlsx
     -h, --help
       Show this help.
-
+```
 
 ## Notes
 

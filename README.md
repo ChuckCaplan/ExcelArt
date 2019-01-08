@@ -30,7 +30,7 @@ mvn package
 ```
 
 ## Run ExcelArt
-Running with Maven is easy, though you can also run with the java command directly.
+Running with Maven is easy (though you can also run with the java command directly).
 
 ``
 mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="-i sample.jpg"

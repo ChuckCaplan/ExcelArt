@@ -24,12 +24,10 @@ git clone http://www.github.com/ChuckCaplan/ExcelArt
 
 Compile the project with Maven.
 
-``
+```
 cd ExcelArt
-``
-``
 mvn package
-``
+```
 
 ## Run Excel Art
 Running with Maven is easy, though you can also run with the java command directly.

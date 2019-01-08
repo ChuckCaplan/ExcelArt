@@ -62,8 +62,6 @@ mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--he
 
 * **[Chuck Caplan](https://www.linkedin.com/in/charlescaplan/)**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

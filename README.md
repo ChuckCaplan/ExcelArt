@@ -25,6 +25,7 @@ git clone http://www.github.com/ChuckCaplan/ExcelArt
 Compile the project with Maven.
 
 ``
+cd ExcelArt
 mvn package
 ``
 

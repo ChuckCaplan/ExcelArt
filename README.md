@@ -36,6 +36,8 @@ Running with Maven is easy (though you can also run with the java command direct
 mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="-i sample.jpg"
 ``
 
+The file output.xlsx should now exist in your directory. Open it in Excel and zoom out to 10% to view the image.
+
 ### Try Different Options
 ``
 mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--help"

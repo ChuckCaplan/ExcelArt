@@ -110,6 +110,8 @@ public class Main {
 			fsManager.setBaseFile(new File("."));
 			FileObject file = fsManager.resolveFile(imageFile);
 			image = ImageIO.read(file.getContent().getInputStream());
+			file.close();
+			fsManager.close();
 		} catch (IOException e) {
 			logger.error("Error reading image", e);
 			System.exit(-1);

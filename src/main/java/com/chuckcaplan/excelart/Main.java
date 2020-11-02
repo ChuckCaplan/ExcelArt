@@ -36,7 +36,7 @@ import com.beust.jcommander.Parameter;
  *         Takes an image as input and outputs a .xlsx Excel spreadsheet with
  *         the cell background colors matching the RGB values of each pixel.
  * 
- *         Idea from Matt Parker - https://www.youtube.com/watch?v=UBX2QQHlQ_I
+ *         Idea is from Matt Parker - https://www.youtube.com/watch?v=UBX2QQHlQ_I
  *
  */
 public class Main {

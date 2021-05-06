@@ -56,7 +56,7 @@ mvn exec:java -Dexec.mainClass="com.chuckcaplan.excelart.Main" -Dexec.args="--he
 
 ## Notes
 
-- It takes 66 seconds to process the sample JPG included with the application on a 2012 Macbook Air with 4GB RAM using the default JVM memory settings.
+- It takes 19 seconds to process the sample JPG included with the application on a 2020 M1 Macbook Pro with 16GB RAM using the default JVM memory settings.
 
 ## Author
 

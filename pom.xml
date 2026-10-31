@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>4.0.1</version>
+			<version>5.4.0</version>
 		</dependency>
 		<!-- Used to work with the newer excel file format - `.xlsx` -->
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
@@ -67,6 +67,13 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.4.0</version>
+		</dependency>
+		<!-- POI 5 logs through the Log4j API; route it to SLF4J so it has a provider -->
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-to-slf4j</artifactId>
+			<version>2.24.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 		<dependency>
